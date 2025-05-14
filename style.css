@@ -1,0 +1,28 @@
+body {
+    background-image: url("./images/hkbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Perpetua';
+    text-shadow: 0 0 10px white;
+}
+
+.container {
+    background-color: rgba(0,0,0,0.9);
+    margin: 5%;
+    border-radius: 50px;
+    box-shadow: 0 0 5px 12px rgba(0,0,0,0.9);
+    padding: 2% 5%;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: white;
+}
