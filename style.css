@@ -20,7 +20,8 @@ body {
 }
 
 p {
-    font-size: 20px;
+    font-size: 24px;
+    text-align: center;
 }
 
 a {
@@ -35,4 +36,43 @@ a {
 
 .subtitle {
     text-align: center;
+}
+
+.divider {
+    margin: 10px auto;
+    display: block;
+}
+
+.vertdiv {
+    height: 60%;
+    margin: auto 5%;
+}
+
+.charimg {
+    width: 100%;
+}
+
+.character {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.chardiv {
+    width: 100%;
+}
+
+.charright {
+    width: 100%;
+}
+
+.chartitle {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.credits {
+    display: block;
+    margin: 10px auto;
 }
