@@ -42,6 +42,7 @@ p {
 .venimg1 {
     width: 30%;
     border-radius: 10px;
+    object-fit: contain;
 }
 
 .vertdiv {
@@ -169,4 +170,29 @@ a, .footer {
     color: white;
     text-align: center;
     font-style: underline;
+}
+
+.rscontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.rsleft, .rsright {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    align-items: center;
+    text-align: center;
+    padding: 2%;
+    justify-content: center;
+}
+
+.rstxt {
+    margin: 0;
+    padding: 0;
+}
+
+.rstitle {
+    margin: 20px 0 0 0;
+    padding: 0;
 }

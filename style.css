@@ -26,3 +26,13 @@ p {
 a {
     color: white;
 }
+
+.indextitle {
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+}
+
+.subtitle {
+    text-align: center;
+}
